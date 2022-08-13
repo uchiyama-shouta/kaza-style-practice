@@ -1,6 +1,7 @@
 import type { ComponentProps, FC } from "react";
 import { useState } from "react";
 
+import { PlusIcon } from "@heroicons/react/outline";
 import { createStyle } from "@kaze-style/react";
 import { useSetRecoilState } from "recoil";
 
@@ -86,7 +87,7 @@ const TaskForm: FC = () => {
             onChange={handleChange}
           />
           <Button>
-            追加
+            <PlusIcon width={20} height={40} />
           </Button>
         </div>
       </form>

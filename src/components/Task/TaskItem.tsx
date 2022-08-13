@@ -1,5 +1,6 @@
 import type { FC } from "react";
 
+import { TrashIcon } from "@heroicons/react/outline";
 import { createStyle } from "@kaze-style/react";
 import { useSetRecoilState } from "recoil";
 
@@ -12,6 +13,7 @@ type Props = Task;
 
 const classes = createStyle({
   item: {
+    display: "flex",
     paddingBottom: "5px",
     fontSize: "20px",
     "& input": {
@@ -56,7 +58,7 @@ const TaskItem: FC<Props> = ({ id, isComplete, text }) => {
         className={classes.deleteButton}
         onClick={() => handleDeleteTask(id)}
       >
-        削除
+        <TrashIcon width={20} height={30} />
       </Button>
     </li>
   );
