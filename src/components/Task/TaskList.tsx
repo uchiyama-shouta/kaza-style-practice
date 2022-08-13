@@ -1,7 +1,7 @@
 import type { FC } from "react";
 
 import { createStyle } from "@kaze-style/react";
-import { useRecoilValue } from "recoil";
+import { useAtomValue } from "jotai";
 
 import TaskItem from "components/Task/TaskItem";
 import { taskState } from "state/tasks";
@@ -17,7 +17,7 @@ const classes = createStyle({
 });
 
 const TaskList: FC = () => {
-  const tasks = useRecoilValue(taskState);
+  const tasks = useAtomValue(taskState);
 
   return (
     <div className={classes.buttom}>
