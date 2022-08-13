@@ -5,7 +5,7 @@ import { createStyle } from "@kaze-style/react";
 const classes = createStyle({
   layout: {
     paddingTop: "70px",
-    width: "80%",
+    width: "85%",
     marginLeft: "auto",
     marginRight: "auto",
   },

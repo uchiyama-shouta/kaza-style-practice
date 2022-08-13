@@ -15,7 +15,7 @@ const classes = createStyle({
     marginBottom: "5px",
   },
   input: {
-    width: "290px",
+    width: "260px",
     height: "40px",
     paddingLeft: "5px",
     fontSize: "22px",
