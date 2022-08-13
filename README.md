@@ -4,9 +4,10 @@
 - Next.js
 - ESLint
 - Prettier
-- Tailwind CSS
+- ~~Tailwind CSS~~
 
-Next.js + TypeScript + Tailwind UI で開発をすること前提で作られています。
+~~Next.js + TypeScript + Tailwind UI で開発をすること前提で作られています。~~
+今回は@kaze-styleというpackageを試すのが目的なので、Tailwind CSS等は使わない
 
 @next/bundle-analyzer, next-pwa の設定済み
 
