@@ -1,7 +1,7 @@
 import type { FC } from "react";
 
 import { createStyle } from "@kaze-style/react";
-import { useRecoilValue } from "recoil";
+import { useAtomValue } from "jotai";
 
 import { taskLengthState } from "state/tasks";
 
@@ -17,7 +17,7 @@ const classes = createStyle({
 });
 
 const TaskCounter: FC = () => {
-  const taskLength = useRecoilValue(taskLengthState);
+  const taskLength = useAtomValue(taskLengthState);
   return <div className={classes.counter}>TODO: {taskLength}件</div>;
 };
 

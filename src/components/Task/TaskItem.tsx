@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 import { TrashIcon } from "@heroicons/react/outline";
 import { createStyle } from "@kaze-style/react";
-import { useSetRecoilState } from "recoil";
+import { useSetAtom } from "jotai";
 
 import type { Task } from "types/Task";
 
@@ -26,7 +26,7 @@ const classes = createStyle({
 });
 
 const TaskItem: FC<Props> = ({ id, isComplete, text }) => {
-  const setTasks = useSetRecoilState(taskState);
+  const setTasks = useSetAtom(taskState);
   const handleToggleIsComplete = (id: Task["id"]) => {
     setTasks((prev) =>
       prev.map((task) =>

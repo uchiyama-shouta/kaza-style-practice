@@ -1,13 +1,8 @@
-import { atom, selector } from "recoil";
+import { atom } from "jotai";
+import { selectAtom } from "jotai/utils";
 
 import type { Task } from "types/Task";
 
-export const taskState = atom<Task[]>({
-  key: "tasks",
-  default: [],
-});
+export const taskState = atom<Task[]>([]);
 
-export const taskLengthState = selector<number>({
-  key: "taskLength",
-  get: ({ get }) => get(taskState).length,
-});
+export const taskLengthState = selectAtom(taskState, (task) => task.length);

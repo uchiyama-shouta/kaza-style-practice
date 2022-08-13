@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { PlusIcon } from "@heroicons/react/outline";
 import { createStyle } from "@kaze-style/react";
-import { useSetRecoilState } from "recoil";
+import { useSetAtom } from "jotai";
 
 import type { Task } from "types/Task";
 
@@ -51,7 +51,7 @@ const classes = createStyle({
 
 const TaskForm: FC = () => {
   const [inputText, setInputText] = useState("");
-  const setTasks = useSetRecoilState(taskState);
+  const setTasks = useSetAtom(taskState);
   const addTask = (text: Task["text"]) => {
     setTasks((prev) => [
       ...prev,
