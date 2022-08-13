@@ -5,6 +5,8 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
 
+const withKazeStyle = require("@kaze-style/next-plugin")
+
 const withPlugins = require("next-compose-plugins");
 
 /** @type {import('next').NextConfig} */
