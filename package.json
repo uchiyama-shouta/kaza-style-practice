@@ -27,7 +27,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "7.18.10",
+    "@babel/core": "7.18.13",
     "@kaze-style/next-plugin": "0.2.0",
     "@next/bundle-analyzer": "12.2.5",
     "@storybook/addon-actions": "6.5.10",
