@@ -58,7 +58,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@7.19.1":
+"@babel/core@7.19.1", "@babel/core@^7.19.1":
   version "7.19.1"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.19.1.tgz#c8fa615c5e88e272564ace3d42fbc8b17bfeb22b"
   integrity sha512-1H8VgqXme4UXCRv7/Wa1bq7RVymKOzC7znjyFM8KiEzwFqcKUKYNoQef4GhdklgNvoBXyW4gYhuBNCM5o1zImw==
@@ -79,7 +79,7 @@
     json5 "^2.2.1"
     semver "^6.3.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.11.1", "@babel/core@^7.12.10", "@babel/core@^7.12.3", "@babel/core@^7.18.10", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.11.1", "@babel/core@^7.12.10", "@babel/core@^7.12.3", "@babel/core@^7.7.5":
   version "7.18.10"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.18.10.tgz#39ad504991d77f1f3da91be0b8b949a5bc466fb8"
   integrity sha512-JQM6k6ENcBFKVtWvLavlvi/mPcpYZ3+R+2EySDEMSMbp7Mn4FexlbbJVrx2R7Ijhr01T8gyqrOaABWIOgxeUyw==
@@ -293,6 +293,11 @@
   version "7.18.9"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.18.9.tgz#4b8aea3b069d8cb8a72cdfe28ddf5ceca695ef2f"
   integrity sha512-aBXPT3bmtLryXaoJLyYPXPlSD4p1ld9aYeR+sJNOZjJJGiOpb+fKfh3NkcCu7J54nUJwCERPBExCCpyCOHnu/w==
+
+"@babel/helper-plugin-utils@^7.19.0":
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.19.0.tgz#4796bb14961521f0f8715990bee2fb6e51ce21bf"
+  integrity sha512-40Ryx7I8mT+0gaNxm8JGTZFUITNqdLAgdg0hXzeVZxVD6nFsdhQvip6v8dqkRHzsz1VFpFAaOCHNn0vKBL7Czw==
 
 "@babel/helper-remap-async-to-generator@^7.18.6", "@babel/helper-remap-async-to-generator@^7.18.9":
   version "7.18.9"
@@ -1492,13 +1497,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@kaze-style/babel-plugin@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@kaze-style/babel-plugin/-/babel-plugin-0.3.1.tgz#f834cb132e5189988e0d98bffd82e7cf97213f8c"
-  integrity sha512-0an3EscPtned1Q++VaQvRHiCW9Oih8c1HBkJ4rDCr4BrsX/74FfGGXD12VoxVwp/tyL+3lNskXC8ECZ0E3Q1Zw==
+"@kaze-style/babel-plugin@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/babel-plugin/-/babel-plugin-0.4.0.tgz#c4b282fdb96a7702acd802a82e59e23f14de2611"
+  integrity sha512-eywdKdtfoBe8LiJyaA9Ga1aGsN23M2w3p3dU1MvkT0jqfzxEYKNGtILhWLC4W8YT8zj6u68WTHXpjCuckpMOjg==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.18.9"
-    "@kaze-style/core" "^0.3.1"
+    "@babel/helper-plugin-utils" "^7.19.0"
+    "@kaze-style/core" "^0.4.0"
 
 "@kaze-style/core@^0.2.0":
   version "0.2.0"
@@ -1508,21 +1513,21 @@
     csstype "^3.1.0"
     stylis "^4.1.1"
 
-"@kaze-style/core@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@kaze-style/core/-/core-0.3.1.tgz#385a3cdfe114b743fda21372f17e1978055caa15"
-  integrity sha512-EnQ+9mEr23VRA4rIR5OFlNmeDLVSH4dDwWXAwcuW6hYJ0v6A3XYb0KAt5NdohS+G+oMD2ZktZeKVVcVGw2jgGw==
+"@kaze-style/core@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/core/-/core-0.4.0.tgz#dd74085bc3af7cd48f3af0fa7477beefd98d7ea3"
+  integrity sha512-WZMSoXdBH1/WaNrSJpoJhG/S4Dahz4RBjR4adUHMPw5zWP15XFxB6dk8EvduWZgCKB69RgxsF8teqJVLd4ecMQ==
   dependencies:
-    csstype "^3.1.0"
-    stylis "^4.1.1"
+    csstype "^3.1.1"
+    stylis "^4.1.2"
 
-"@kaze-style/next-plugin@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@kaze-style/next-plugin/-/next-plugin-0.3.1.tgz#bd736e49eab6f28824a8ddf2afc9b20dd3f61b81"
-  integrity sha512-G0wHzpu3FLqPHWmj1Rua4B9JOD5Vf+LN6mQ6O5CKalhVyxK/inLoQ/B5+ri+/lEJrF/lNp4lH59lTk3QVw69Rw==
+"@kaze-style/next-plugin@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/next-plugin/-/next-plugin-0.4.0.tgz#ec773dfeb1761ae0ac6e0f608ad2697e39b72649"
+  integrity sha512-cSRZUHaQgdBhyzKXB0iMhwZ7CHvy1MasES3MIWa2YrPmxZcUucV/lsircgTuqKPJj4zNe0sDXcMlENq/oTUV2g==
   dependencies:
-    "@kaze-style/webpack-plugin" "^0.3.1"
-    browserslist "^4.21.3"
+    "@kaze-style/webpack-plugin" "^0.4.0"
+    browserslist "^4.21.4"
 
 "@kaze-style/react@0.2.0":
   version "0.2.0"
@@ -1531,13 +1536,14 @@
   dependencies:
     "@kaze-style/core" "^0.2.0"
 
-"@kaze-style/webpack-plugin@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@kaze-style/webpack-plugin/-/webpack-plugin-0.3.1.tgz#302d756d5da33c50c0ce0b632eb9bc85b6b9fc6b"
-  integrity sha512-z9fpNpbVaFnr62U0uwotmNOL/67YiBrys9xxV5CaIGOTZqJ5wyJr7z8hslLIqbHgm3+57aNvwmyGsvF3avXTkg==
+"@kaze-style/webpack-plugin@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/webpack-plugin/-/webpack-plugin-0.4.0.tgz#259f1384aef9ef58ec07e12a87260f29769dd830"
+  integrity sha512-3TFSyAsi7dQChtdBdGaNXuwRk5AZAHgP9ukbBqXuV+ggmEXU7lawvnXqA4g1CCPfR7TnLNeAlCToVfQShG9aSw==
   dependencies:
-    "@babel/core" "^7.18.10"
-    "@kaze-style/babel-plugin" "0.3.1"
+    "@babel/core" "^7.19.1"
+    "@kaze-style/babel-plugin" "0.4.0"
+    "@kaze-style/core" "^0.4.0"
     eval "^0.1.8"
 
 "@mdx-js/mdx@^1.6.22":
@@ -4308,6 +4314,16 @@ browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.20.2, browserslist@^
     node-releases "^2.0.6"
     update-browserslist-db "^1.0.5"
 
+browserslist@^4.21.4:
+  version "4.21.4"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.21.4.tgz#e7496bbc67b9e39dd0f98565feccdcb0d4ff6987"
+  integrity sha512-CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw==
+  dependencies:
+    caniuse-lite "^1.0.30001400"
+    electron-to-chromium "^1.4.251"
+    node-releases "^2.0.6"
+    update-browserslist-db "^1.0.9"
+
 bser@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/bser/-/bser-2.1.1.tgz#e6787da20ece9d07998533cfd9de6f5c38f4bc05"
@@ -4490,6 +4506,11 @@ caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001370:
   version "1.0.30001373"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001373.tgz#2dc3bc3bfcb5d5a929bec11300883040d7b4b4be"
   integrity sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ==
+
+caniuse-lite@^1.0.30001400:
+  version "1.0.30001410"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001410.tgz#b5a86366fbbf439d75dd3db1d21137a73e829f44"
+  integrity sha512-QoblBnuE+rG0lc3Ur9ltP5q47lbguipa/ncNMyyGuqPk44FxbScWAeEO+k5fSQ8WekdAK4mWqNs1rADDAiN5xQ==
 
 caniuse-lite@^1.0.30001406:
   version "1.0.30001406"
@@ -5084,6 +5105,11 @@ csstype@^3.0.2, csstype@^3.1.0:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
   integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
 
+csstype@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
+  integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -5392,6 +5418,11 @@ electron-to-chromium@^1.4.202:
   version "1.4.210"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.210.tgz#12611fe874b833a3bf3671438b5893aba7858980"
   integrity sha512-kSiX4tuyZijV7Cz0MWVmGT8K2siqaOA4Z66K5dCttPPRh0HicOcOAEj1KlC8O8J1aOS/1M8rGofOzksLKaHWcQ==
+
+electron-to-chromium@^1.4.251:
+  version "1.4.261"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.261.tgz#31f14ad60c6f95bec404a77a2fd5e1962248e112"
+  integrity sha512-fVXliNUGJ7XUVJSAasPseBbVgJIeyw5M1xIkgXdTSRjlmCqBbiSTsEdLOCJS31Fc8B7CaloQ/BFAg8By3ODLdg==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -10661,6 +10692,11 @@ stylis@^4.1.1:
   resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.1.1.tgz#e46c6a9bbf7c58db1e65bb730be157311ae1fe12"
   integrity sha512-lVrM/bNdhVX2OgBFNa2YJ9Lxj7kPzylieHd3TNjuGE0Re9JB7joL5VUKOVH1kdNNJTgGPpT8hmwIAPLaSyEVFQ==
 
+stylis@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.1.2.tgz#870b3c1c2275f51b702bb3da9e94eedad87bba41"
+  integrity sha512-Nn2CCrG2ZaFziDxaZPN43CXqn+j7tcdjPFCkRBkFue8QYXC2HdEwnw5TCBo4yQZ2WxKYeSi0fdoOrtEqgDrXbA==
+
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -11218,6 +11254,14 @@ update-browserslist-db@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.5.tgz#be06a5eedd62f107b7c19eb5bcefb194411abf38"
   integrity sha512-dteFFpCyvuDdr9S/ff1ISkKt/9YZxKjI9WlRR99c180GaztJtRa/fn18FdxGVKVsnPY7/a/FDN68mcvUmP4U7Q==
+  dependencies:
+    escalade "^3.1.1"
+    picocolors "^1.0.0"
+
+update-browserslist-db@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz#2924d3927367a38d5c555413a7ce138fc95fcb18"
+  integrity sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
