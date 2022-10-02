@@ -7,8 +7,6 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 const { withKazeStyle } = require("@kaze-style/next-plugin");
 
-const withPlugins = require("next-compose-plugins");
-
 /** @type {import('next').NextConfig} */
 const config = {
   swcMinify: true,
@@ -20,6 +18,8 @@ const config = {
   },
 };
 
-module.exports = withPlugins([withBundleAnalyzer, withKazeStyle], {
-  ...config,
-});
+const withPlugins = (plugins, config) => {
+  return plugins.reduce((acc, plugin) => plugin(acc), { ...config });
+};
+
+module.exports = withPlugins([withBundleAnalyzer, withKazeStyle], config);
