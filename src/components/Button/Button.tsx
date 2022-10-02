@@ -2,26 +2,21 @@ import type { ComponentProps, FC } from "react";
 
 type Props = ComponentProps<"button">;
 
-import { createStyle, margeStyle } from "@kaze-style/react";
+import { createStyle, mergeStyle } from "@kaze-style/react";
+
+import { theme } from "lib/theme";
 
 const classes = createStyle({
   button: {
     height: "40px",
-    paddingLeft: "8px",
-    paddingRight: "8px",
+    padding: "0px 8px",
     marginLeft: "10px",
-    borderTopStyle: "solid",
-    borderRightStyle: "solid",
-    borderBottomStyle: "solid",
-    borderLeftStyle: "solid",
-    borderTopColor: "#000",
-    borderRightColor: "#000",
-    borderBottomColor: "#000",
-    borderLeftColor: "#000",
-    borderTopWidth: "1px",
-    borderRightWidth: "1px",
-    borderBottomWidth: "1px",
-    borderLeftWidth: "1px",
+    border: "solid",
+    borderColor: "#000",
+    borderWidth: "1px",
+    [theme.screen.xs]: {
+      color: theme.colors.green,
+    },
   },
 });
 
@@ -30,7 +25,7 @@ const Button: FC<Props> = (props) => {
 
   return (
     <button
-      className={margeStyle(classes.button, className)}
+      className={mergeStyle(classes.button, className)}
       {...buttonProps}
     />
   );
