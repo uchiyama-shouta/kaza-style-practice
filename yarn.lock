@@ -935,7 +935,7 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@heroicons/react@^1.0.6":
+"@heroicons/react@1.0.6":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
   integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
@@ -1036,14 +1036,14 @@
     "@kaze-style/webpack-plugin" "^0.5.0"
     browserslist "^4.21.4"
 
-"@kaze-style/react@^0.5.1":
+"@kaze-style/react@0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@kaze-style/react/-/react-0.5.1.tgz#cca875fd237b0175d3029d91b459be152df0890d"
   integrity sha512-sgUSTJIdfBW+wRDEweNTtuj0QSXtoler8miyVZTHYihEatvM1tGXWi5CX8ftCd+FOKU+b1ejTBXoV+HwP9gHqg==
   dependencies:
     "@kaze-style/core" "^0.5.1"
 
-"@kaze-style/themes@^0.5.0":
+"@kaze-style/themes@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@kaze-style/themes/-/themes-0.5.0.tgz#82fe4b885b1097bad869434fda30da9a70e2d602"
   integrity sha512-FKkVPN8oDJ3hV5L5ox7FFSNIyPggWkccEOrsrF6FPAGcKg20Trw4EGTTO0IN4Qq1t6qQR1LbDJzriGMSCHvWxw==
@@ -2710,7 +2710,7 @@ jest-worker@^27.4.5:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jotai@^1.7.8:
+jotai@1.8.4:
   version "1.8.4"
   resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.8.4.tgz#e188bff3cc790c758d25646f6f5daf9854c98eef"
   integrity sha512-bkHDHNxm7bU4+bJL4z96fTlJYN34UDRTu3ghEajJrDepayON9YEaxPrXr7xhLnIRntoFC6eDYYhMNA/ilbj2RQ==
