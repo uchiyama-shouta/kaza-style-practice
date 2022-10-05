@@ -1043,10 +1043,10 @@
   dependencies:
     "@kaze-style/core" "^0.5.1"
 
-"@kaze-style/themes@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@kaze-style/themes/-/themes-0.5.0.tgz#82fe4b885b1097bad869434fda30da9a70e2d602"
-  integrity sha512-FKkVPN8oDJ3hV5L5ox7FFSNIyPggWkccEOrsrF6FPAGcKg20Trw4EGTTO0IN4Qq1t6qQR1LbDJzriGMSCHvWxw==
+"@kaze-style/themes@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@kaze-style/themes/-/themes-0.5.2.tgz#37cf3c1d425416f788cc2767c61ce5022ce47bae"
+  integrity sha512-6SAHO5Im1uxzcCaGWyjB8tF1AFg7KYVgRWJMBTj3Am/PlFT1xtBpliHvzpG63oS0tmF/1EV6FZOnt+hOs+EXXA==
 
 "@kaze-style/webpack-plugin@^0.5.0":
   version "0.5.0"
