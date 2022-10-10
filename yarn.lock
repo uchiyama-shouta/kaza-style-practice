@@ -1030,6 +1030,13 @@
   dependencies:
     csstype "^3.1.1"
 
+"@kaze-style/core@^0.6.0":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@kaze-style/core/-/core-0.6.1.tgz#eec62e3fa9868f6358de6489a2ba3daf71f54a5c"
+  integrity sha512-3vOgyBFpE3i+51bA61HKGO+JZ2fp1u81Rp4Vat+h76RQR0WZjCMtlSX/8uA6KDUob8RCCq6+euNxTlOJ4GEJxg==
+  dependencies:
+    csstype "^3.1.1"
+
 "@kaze-style/next-plugin@0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@kaze-style/next-plugin/-/next-plugin-0.5.3.tgz#004adfe304141639f2520cd2798440fb5a1d77aa"
@@ -1038,12 +1045,12 @@
     "@kaze-style/webpack-plugin" "^0.5.3"
     browserslist "^4.21.4"
 
-"@kaze-style/react@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@kaze-style/react/-/react-0.5.3.tgz#b6ab56db6ab1a2868b05869c6a4a0a165926f92a"
-  integrity sha512-04tEs1MvTZKcR5HpjvcVUHFNW/wWVs3qw9Ua5hZhNKd7K9dv9xx38YFSqd75Bdh29HAPLX11bVDSBwtoLMl+jw==
+"@kaze-style/react@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@kaze-style/react/-/react-0.6.1.tgz#76f39758583d3295ca436eed1c299d3b14e9dfa5"
+  integrity sha512-gGJR00wztQJyhhyshozRGrlfCF/m7VBvpviyxspGBj5C2RLSaZVaJhOqv+IffmZ20SsHfJzPgv2Fa4nZXNLqHg==
   dependencies:
-    "@kaze-style/core" "^0.5.3"
+    "@kaze-style/core" "^0.6.0"
 
 "@kaze-style/themes@0.5.3":
   version "0.5.3"
