@@ -1007,20 +1007,20 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@kaze-style/babel-plugin@0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@kaze-style/babel-plugin/-/babel-plugin-0.6.2.tgz#29f03bb41a6e3132ff5157b5728883536687b2b0"
-  integrity sha512-+dnkuWJbnX2+Wd8C1QaEwI2l/lwTssT+P5ZVS2Xt8syU2Pv5zQ7I6gBLCwneJ57eG+yoXt+oyeM/EDpvGDZg7Q==
+"@kaze-style/babel-plugin@0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@kaze-style/babel-plugin/-/babel-plugin-0.6.3.tgz#052d56aaf3280a3174717542c3e52f10b28cd6f1"
+  integrity sha512-Kvq4HasKp1CIKHKyzNFZiZHslMvMHpK+QuxMUoGQU4l9Hco37Yq/Ca3mBYzdMe9ysXjXvF3wzwM0szELnW339w==
   dependencies:
     "@babel/helper-plugin-utils" "^7.19.0"
-    "@kaze-style/core" "^0.6.2"
+    "@kaze-style/core" "^0.6.3"
 
-"@kaze-style/build-man@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@kaze-style/build-man/-/build-man-0.6.2.tgz#58f555d95a692de9dc965b63739dd1b4c9428255"
-  integrity sha512-x6OMgOVsTADhgiO457w3uULgzqDbjxmfAE/Ri2CwJs0NeQO6P5DlY3gyUwcfoLaLjMP2z0Bnd7FHjzJx9WZaZQ==
+"@kaze-style/build-man@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@kaze-style/build-man/-/build-man-0.6.3.tgz#abfa811d0debc24d9bd29d818c58fc51169d7d84"
+  integrity sha512-GFEIF3MP0yMP+GYskhsytNvMwZSmJ5eGh0zRaWINO5Ki/qwBtdHUKbDLLjxq9nhKS8uFQbiYb94etW/sGwWRRA==
   dependencies:
-    "@kaze-style/core" "^0.6.2"
+    "@kaze-style/core" "^0.6.3"
     stylis "^4.1.2"
 
 "@kaze-style/core@^0.6.2":
@@ -1030,12 +1030,19 @@
   dependencies:
     csstype "^3.1.1"
 
-"@kaze-style/next-plugin@0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@kaze-style/next-plugin/-/next-plugin-0.6.2.tgz#18803346c875a81b0b3a4705c0989685331e52bc"
-  integrity sha512-x7INdfaiHKnvoOU31ROfWEh6KVx3x60Ya+E8qGygHkJwMczGA7qfgHAyvTqjPqixpkZF4KU6PYyBNUIZHe16ow==
+"@kaze-style/core@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@kaze-style/core/-/core-0.6.3.tgz#0415c6b3ad8ea54725f358a6cb43a840f8a699c9"
+  integrity sha512-XXcjjrSxunhAkiWeCUDxjWeDJw0YmO1hRrW6mfYzsDWi8CJnZHFot8ZiSVs8Q+b/cNZZkWSZBh0/BG7iDYzqUQ==
   dependencies:
-    "@kaze-style/webpack-plugin" "^0.6.2"
+    csstype "^3.1.1"
+
+"@kaze-style/next-plugin@0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@kaze-style/next-plugin/-/next-plugin-0.6.3.tgz#d47276b6dd60011a6f9c77ff7e5849cce5229c09"
+  integrity sha512-wzdI05YF9EEnsN+SEMDbRMhMcZ3x8RRviz8fbjsw7Z+r5xTASHxLlEzDWLK8EfYO/DD7+jn+WIEkSAHAe+48KA==
+  dependencies:
+    "@kaze-style/webpack-plugin" "^0.6.3"
     browserslist "^4.21.4"
 
 "@kaze-style/react@0.6.2":
@@ -1050,15 +1057,15 @@
   resolved "https://registry.yarnpkg.com/@kaze-style/themes/-/themes-0.6.2.tgz#e0ddcdba3c3f1658f15889dca450af24d980cb2c"
   integrity sha512-lfoZrJxfqTs8YidpGhW1HCXHHRjjI64e19mhEBW/Pl8jXuCSTJnOoy01QrPgJiduEe6q5qMqLIwtqqSAm0sDzg==
 
-"@kaze-style/webpack-plugin@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@kaze-style/webpack-plugin/-/webpack-plugin-0.6.2.tgz#6b06e964ad4e421a2c237fa9b5508beaf807ed06"
-  integrity sha512-kJMvL9/oDwdFZbfLPRF7hRfMvMg9G4d8oNb/XDe3W91ZYrnZssxyfiJw5No/8olEDhzlrSPTxGbepsJMrIRusA==
+"@kaze-style/webpack-plugin@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@kaze-style/webpack-plugin/-/webpack-plugin-0.6.3.tgz#f837fc4b4ac6557c55ef6559b4c94baffc60e639"
+  integrity sha512-SRNecySCp1sPeN8kzSjtLawFAvFNsQgT40AUu9tpTqaPcvXHqNgkI54CYKoYOeSG4uG9RPHKvcyDQjcvcEOlzw==
   dependencies:
     "@babel/core" "^7.19.1"
-    "@kaze-style/babel-plugin" "0.6.2"
-    "@kaze-style/build-man" "^0.6.2"
-    "@kaze-style/core" "^0.6.2"
+    "@kaze-style/babel-plugin" "0.6.3"
+    "@kaze-style/build-man" "^0.6.3"
+    "@kaze-style/core" "^0.6.3"
     eval "^0.1.8"
 
 "@next/bundle-analyzer@12.2.3":
