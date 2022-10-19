@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@heroicons/react": "1.0.6",
-    "@kaze-style/react": "0.7.4",
+    "@kaze-style/react": "0.7.5",
     "@kaze-style/themes": "0.7.4",
     "jotai": "1.8.6",
     "next": "12.2.3",
