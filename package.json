@@ -28,7 +28,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@kaze-style/next-plugin": "0.13.0",
+    "@kaze-style/next-plugin": "0.14.1",
     "@next/bundle-analyzer": "13.1.1",
     "@tsconfig/node16-strictest-esm": "1.0.3",
     "@types/node": "18.11.17",
