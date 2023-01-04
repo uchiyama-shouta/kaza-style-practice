@@ -1196,10 +1196,10 @@
   dependencies:
     "@swc/core" "^1.3.24"
 
-"@kaze-style/themes@0.14.2":
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/@kaze-style/themes/-/themes-0.14.2.tgz#26b18c4a3b214724d0ece3afe0c3f234143ee697"
-  integrity sha512-kAW9Td0jwnNlwVR27xm8HXcD0bBcEAWXxZHw/Q+ySDKx6oU5ItQdsjacL00G3HYPyXRlbCpSZ64vvPpQiEYTCA==
+"@kaze-style/themes@0.14.3":
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/@kaze-style/themes/-/themes-0.14.3.tgz#3d4d79ebb5a6b9add9d154eeec267a47accf9fec"
+  integrity sha512-qjoNJQNpllyeYK18yxlEph2N8mazK4FoSdmWrxiGdu9bt9Z/usallykhPiY3m+v47cRfz2JFghyiI5wGhkueGg==
 
 "@kaze-style/webpack-plugin@^0.14.3":
   version "0.14.3"
