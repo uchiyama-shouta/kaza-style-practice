@@ -18,7 +18,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@heroicons/react": "1.0.6",
+    "@heroicons/react": "2.0.13",
     "@kaze-style/react": "0.14.3",
     "@kaze-style/themes": "0.14.3",
     "jotai": "1.13.0",
