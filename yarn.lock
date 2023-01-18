@@ -1148,22 +1148,22 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@kaze-style/babel-plugin@^0.14.3":
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/@kaze-style/babel-plugin/-/babel-plugin-0.14.3.tgz#674906a27de2d61e634ffd6675e23ab452a6ab58"
-  integrity sha512-t1fG7P1sMgsW0qyzIxiVsHKrL6jd/nFIEijsf9r2mrLqZO6pu1cSONICcw2dDDrWJ2K6kuoXyJfkZBlCMonZxg==
+"@kaze-style/babel-plugin@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/babel-plugin/-/babel-plugin-0.15.0.tgz#5afcbd157cbe5c906743c06021522ab6cd0deadb"
+  integrity sha512-FWh0rCEibZ8SUu8gS+kI5JBnz/Spg3kcfPiuiEEA965vYoecQTPXwB4sX5W3YvaavfozdRFKYXBMjkGysEXTdw==
   dependencies:
     "@babel/core" "^7.20.7"
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/plugin-syntax-typescript" "^7.20.0"
 
-"@kaze-style/build@^0.14.3":
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/@kaze-style/build/-/build-0.14.3.tgz#53a6ea0c6e9d10b71ecc8bd6e732f2c63ff8ab16"
-  integrity sha512-2Ls/YuLYoM/iybwBGOWyE/fmSjm0v8YVc1nRcJyKDvSypwLjEm+OM3oqNiTlXTXIL1We5yK4qOQGyToQm1g4kg==
+"@kaze-style/build@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/build/-/build-0.15.0.tgz#75c9cae589d6a060a3c2a447788188b9f92e00e6"
+  integrity sha512-cZ486WdDfChEZJGZgj3fPU6QV68/80pQ8OIIuCHJeGKJISK9m91E4jTs8AygHPYVgTvRBCr8Z17uj1V727oOOw==
   dependencies:
-    "@kaze-style/babel-plugin" "^0.14.3"
-    "@kaze-style/swc-plugin" "^0.14.3"
+    "@kaze-style/babel-plugin" "^0.15.0"
+    "@kaze-style/swc-plugin" "^0.15.0"
     eval "^0.1.8"
     stylis "^4.1.3"
 
@@ -1174,12 +1174,12 @@
   dependencies:
     csstype "^3.1.1"
 
-"@kaze-style/next-plugin@0.14.3":
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/@kaze-style/next-plugin/-/next-plugin-0.14.3.tgz#78f2ac2ba1e35c8d7d30f02978db09f2f66a0df9"
-  integrity sha512-V7mb9SFoLWDDwezF9RjVmPMh+J+Yo7hK9XhfyXWMh/F9DMN9wjye7v0GPIXk1GNzNV3Vxj1qcM4TGks0RsqP9Q==
+"@kaze-style/next-plugin@0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/next-plugin/-/next-plugin-0.15.0.tgz#03feeab6df5463f7f8f1da36d4978589d9dbec6b"
+  integrity sha512-mnK3foDhBwZpjEx8U332/oiDyxfNwA+HjW99IXlvEE14DWuO8DYIOwIBKI7LL7+CVpLIaJ+KjXDzTZ83NLnEew==
   dependencies:
-    "@kaze-style/webpack-plugin" "^0.14.3"
+    "@kaze-style/webpack-plugin" "^0.15.0"
     browserslist "^4.21.4"
 
 "@kaze-style/react@0.14.3":
@@ -1189,10 +1189,10 @@
   dependencies:
     "@kaze-style/core" "^0.14.3"
 
-"@kaze-style/swc-plugin@^0.14.3":
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/@kaze-style/swc-plugin/-/swc-plugin-0.14.3.tgz#6a78e5601b18bfb1cba75345e20400ea265c75f3"
-  integrity sha512-i0cnglEMiRTIiy3zr1CHMOEWZHy+gmugfZmZTsF9L9avtnaZvbzGH7jr7oajVpVvI42Y5HI4si50nIDICZX6Nw==
+"@kaze-style/swc-plugin@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/swc-plugin/-/swc-plugin-0.15.0.tgz#e3babaa2133c336d70de50ebb9ad89dfca07fc7b"
+  integrity sha512-sezfQvhN18CbhUAJntOTWzm17zSP7nEEp9HBxulQsokj5ZRGFIL2okXvW+sPYmUi1R8yCPG/fTrsLv7y1zrLMg==
   dependencies:
     "@swc/core" "^1.3.24"
 
@@ -1201,12 +1201,12 @@
   resolved "https://registry.yarnpkg.com/@kaze-style/themes/-/themes-0.14.3.tgz#3d4d79ebb5a6b9add9d154eeec267a47accf9fec"
   integrity sha512-qjoNJQNpllyeYK18yxlEph2N8mazK4FoSdmWrxiGdu9bt9Z/usallykhPiY3m+v47cRfz2JFghyiI5wGhkueGg==
 
-"@kaze-style/webpack-plugin@^0.14.3":
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/@kaze-style/webpack-plugin/-/webpack-plugin-0.14.3.tgz#90300e92da3c7ab1c70a9e913c3d3760f76b73ed"
-  integrity sha512-/dPB9X3VxIRPfE6yct1c9Z+hwD6mERWVyGpHc2AEpa/UrAxx86C5yiiPq4o38UXDZ9tYPPpq1FMSNXA0ovOPxw==
+"@kaze-style/webpack-plugin@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@kaze-style/webpack-plugin/-/webpack-plugin-0.15.0.tgz#ca91cdcd315c4627885b5ce1d1118fb453163e0d"
+  integrity sha512-eHlhBzjnfYtx9QaYFEOOyd2X611C4CS9h9n6qboPWbPaH44VxjG1BGgNukdB3MZAguM5B+EteTe+ITpKzlzntQ==
   dependencies:
-    "@kaze-style/build" "^0.14.3"
+    "@kaze-style/build" "^0.15.0"
 
 "@next/bundle-analyzer@13.1.2":
   version "13.1.2"
