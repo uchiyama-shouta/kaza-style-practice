@@ -20,7 +20,7 @@
   "dependencies": {
     "@heroicons/react": "1.0.6",
     "@kaze-style/react": "0.15.0",
-    "@kaze-style/themes": "0.17.0",
+    "@kaze-style/themes": "0.17.1",
     "jotai": "2.0.3",
     "next": "13.2.3",
     "next-pwa": "5.5.5",
